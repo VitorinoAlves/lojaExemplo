@@ -59,3 +59,31 @@ nav a{
     display: block;
     width: 100%;
 }
+
+.imagemProduto{
+    height: 250px;
+    margin-bottom: 32px;
+}
+
+.listaProdutos{
+    display: grid;
+    grid-template-columns: repeat(4, 23.5%);
+    column-gap: 2%;
+    list-style: none;
+    margin-bottom: 32px;
+}
+
+.listaProdutos h3,
+.listaProdutos p{
+    margin-bottom: 16px;
+}
+
+.listaProdutos button{
+    width: 100%;
+    padding: 8px;
+    color: #fff;
+    background-color: #2760db;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+}
